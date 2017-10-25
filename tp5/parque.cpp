@@ -144,17 +144,17 @@ ostream & operator<<(ostream & os, const ParqueEstacionamento & pe) {
 }
 
 /* 2.a)
- * Algoritmo de complexidade temporal O(n^2) uma vez que possuímos 2 ciclos for
- * cujo tempo de execução depende única e exclusivamente do tamanho dos vetores
- * linha e coluna da matriz. Atenção que o ciclo for para imprimir os tabs tem
- * complexidade constante O(1), uma vez que não depende do número de linhas ou colunas.
+ * Algoritmo de complexidade temporal O(n^2) uma vez que possuÃ­mos 2 ciclos for
+ * cujo tempo de execuÃ§Ã£o depende Ãºnica e exclusivamente do tamanho dos vetores
+ * linha e coluna da matriz. AtenÃ§Ã£o que o ciclo for para imprimir os tabs tem
+ * complexidade constante O(1), uma vez que nÃ£o depende do nÃºmero de linhas ou colunas.
  */
 
 /* 2b)
- * Algoritmo de pesquisa binária, por isso tem complexidade temporal que no pior dos casos
- * é igual a O(log(n)), caso em que o valor a pesquisar não se encontra no vetor. No melhor
- * dos casos temos apenas uma iteração em que o elemento a encontrar se encontra a meio do array,
- * caso em que a complexidade temporal é de O(1).
- * Em termos de complexidade espacial, temos O(1) no pior dos casos.
+ * Algoritmo de pesquisa binÃ¡ria, por isso tem complexidade temporal que no pior dos casos
+ * Ã© igual a O(log(n)), caso em que o valor a pesquisar nÃ£o se encontra no vetor. No melhor
+ * dos casos temos apenas uma iteraÃ§Ã£o em que o elemento a encontrar se encontra a meio do array,
+ * caso em que a complexidade temporal Ã© de O(1).
+ * Em termos de complexidade espacial, temos O(1).
  */
 
